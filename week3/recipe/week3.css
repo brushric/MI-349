@@ -1,0 +1,49 @@
+body{
+  background: #ccc;
+  font-family: Helvetica;
+}
+
+.container{
+    margin: 0 auto;
+    width: 700px;
+    background: #fff url('onion_dip.jpg') no-repeat top center;
+    padding-top: 200px;
+    border-top: 10px solid #424242;
+}
+
+article{
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.recipe h1{
+  font-family: arial;
+  font-size: 2em;
+}
+
+.recipe p, .recipe ul, .recipe ol{
+  border: 3px solid black;
+  padding: 30px;
+  background-color: #ccc;
+}
+
+.recipe ul{
+  list-style-type: circle;
+}
+
+.recipe h3 {
+  font-family: arial;
+  text-shadow: 2px 2px grey;
+  font-size: 1.5em;
+}
+
+.recipe a:hover{
+  background-color: teal;
+}
+.recipe a:link{
+  color: blue;
+}
+
+.recipe a:visited{
+  color: purple;
+}
