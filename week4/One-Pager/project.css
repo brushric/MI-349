@@ -1,0 +1,93 @@
+body {
+  background: #ccc;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+h1 {
+  margin:0;
+  color: white;
+  text-shadow: 2px 1px black;
+  padding-left: 30px;
+}
+h3{
+  text-align: center;
+  padding: 15px;
+}
+.header {
+  margin:0;
+  padding-bottom: 100px;
+  color: white;
+  text-shadow: 2px 1px black;
+  padding-left: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  padding-top: 50px;
+  padding-bottom : 20px;
+  background: #fff url('header.jpg') no-repeat top center;
+  border-top: 10px solid #424242;
+}
+
+.pager {
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.personas{
+  font-size: ..8em;
+  font-weight: normal;
+}
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+a:link, a:visited{
+  color: #424242;
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+ul li:first-child{
+}
+
+ul li:last-child{
+}
+
+ul li:nth-child(even){
+}
+
+/* Inline, Inline-Block and Block */
+
+ul li{
+  margin: 0;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.boxxy{
+  background-color: #ccc;
+  border-radius: 5px;
+}
+/* Float example */
+/*ol{
+  float: right;
+  width: 300px;
+}
+
+h3{
+  clear: both;
+}*/
