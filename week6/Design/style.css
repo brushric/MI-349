@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-  margin-top: .5%;
-  margin-bottom: .5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   /*margin: 0 auto;
   width: 700px;
   padding-top: 150px;
@@ -28,7 +28,7 @@ body {
   text-align: center;
   background: rgb(100, 37, 120);
   padding: 5em;
-  margin-top: 1%;
+  margin-top: 5%;
 }
 
 .bad{
@@ -40,8 +40,18 @@ body {
 
 .good, .bad{
   width: 700px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-top: 10px solid #424242;
   border-bottom: 10px solid #424242;
+}
+
+th, tr, td{
+  font-weight: normal;
+  padding: 0 1em 0 1em;
+}
+
+table{
+  margin: 0 auto;
+  padding-top: 1em;
 }
