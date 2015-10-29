@@ -1,0 +1,26 @@
+.column{
+  margin: 0 auto;
+  background: #e3e3e3;
+  /*padding: 1em;*/
+  width: 33%;
+  border: 1pt solid black;
+  float: left;
+}
+
+@media(max-width: 1200px){
+  .column{
+    width: 33%;
+  }
+}
+
+@media(max-width: 800px){
+  .column{
+    width: 49%;
+  }
+}
+
+@media(max-width: 400px){
+  .column{
+    width: 100%;
+  }
+}
