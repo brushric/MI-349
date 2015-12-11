@@ -1,0 +1,571 @@
+body{
+  background-color: #71262D;
+  font-family: Helvetica;
+  color: #d9d7c0;
+    /*margin: 0 !important;*/
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    background: #123A31 no-repeat top center;
+    padding-top: 5%;
+}
+
+h1{
+  padding: 0;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin: 0;
+  color: #F3C72A;
+  font-size: 3em;
+}
+
+h2{
+  font-size: 3em;
+  width: 100%;
+  padding-top: .5em;
+  padding-left: 0 !important;
+  margin-left: 0;
+  padding-bottom: 0;
+  color: #F3C72A;
+  text-align: center;
+  border-bottom: .25em solid #F3C72A;
+}
+
+h3{
+  width: 100%;
+  text-align: center;
+  font-size: 1.75em;
+  padding: 0;
+  margin: 0;
+  color: #d9d7c0;
+}
+
+h4{
+  font-size: 1.5em;
+  padding-left: 1em;
+  margin: 0;
+  color: #d9d7c0;
+}
+
+div.inline-left h4{
+  padding-top: 1em;
+  padding-left: 0;
+}
+
+#section-1 h3{
+  border-bottom: 1px solid #d9d7c0;
+  color: #F3C72A;
+}
+
+#section-1 h4{
+  color: #F3C72A;
+}
+
+#section-2 h3{
+  color: #F3C72A;
+}
+
+#section-4 h3{
+  text-align: left;
+  padding-left: 15px;
+  font-weight: normal;
+  color: #F3C72A
+}
+
+.header{
+  padding-bottom: 15px;
+}
+
+.contentPage{
+  height: 750px;
+  width: 100%;
+}
+
+.inline-left, .inline-middle, .inline-right{
+  display: inline-block;
+}
+
+.inline-left{
+  float: left;
+  padding-left: 15px;
+  width: 25%;
+  top: 25%;
+}
+
+.inline-left p{
+  padding: 0;
+}
+
+.inline-middle{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-right{
+  float: right;
+  padding-right: 15px;
+  width: 25%;
+  top: 25%;
+}
+
+.about{
+  padding-left: 10px;
+  text-align: left;
+}
+
+.contentPage:nth-child(even){
+  background-color: #5E6E63;
+}
+
+.contentPage:nth-child(odd){
+  background-color: #5E6E63;
+}
+
+#nav{
+  position: fixed;
+  top: 25%;
+  margin-left: 84%;
+  width: 15%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a:link, li a:visited {
+    display: block;
+    font-weight: bold;
+    color: #F3C72A;
+    background-color: #5E6E63;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+div.inline-right ul li{
+  font-size: 1.5em;
+  text-align: right;
+  padding-top: 1em;
+}
+
+div.inline-left p{
+  font-size: 1.5em;
+}
+
+li a:hover{
+    color: #71262D;
+}
+
+ul li .highlight{
+  background-color: #A19AA1;
+  color: #F3C72A;
+}
+
+.contact{
+  padding: 10%;
+}
+
+.contactPart{
+    font-size: 3em;
+}
+
+td a:link, td a:visited {
+    display: block;
+    font-weight: bold;
+    background-color: #123A31;
+    color: #F3C72A;
+    width: 100%;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+td a:hover, td a:active {
+    background-color: #F3C72A;
+    color: #123A31;
+}
+
+p{
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+div p.job{
+  font-weight: bolder;
+  text-align: left;
+  font-weight: normal;
+  width: 300px;
+}
+
+.job-details{
+  padding-bottom: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+  width: 100%;
+}
+
+td{
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.rates th{
+  text-align: center;
+  font-size: 1.25em;
+}
+.rates td{
+  width: 50%;
+  text-align: center;
+  font-size: 1.25em;
+  vertical-align: middle;
+}
+
+.rates th{
+  color: #F3C72A;
+}
+
+.rate{
+  /*color: #F3C72A*/
+}
+
+
+.left-link{
+  padding-left: 15px;
+}
+
+.right-link{
+  padding-right: 15px;
+}
+
+.links{
+  background-color: none;
+  color: black;
+  text-decoration: none;
+}
+
+.downloadable{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+div.downloadable a:link, div.downloadable a:hover, div.downloadable a:visited, div.downloadable a:active{
+  color: #d9d7c0;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0;
+}
+
+.row{
+  width: 100%;
+  display: inline-flex;
+}
+
+.row li{
+  width: 12.5%;
+  text-align: center;
+}
+
+.left{
+  float: left;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 1em;
+}
+
+.left p{
+  text-align: left;
+}
+
+.right{
+  float: right;
+  padding-right: 15px;
+  text-align: right;
+  font-size: 1em;
+}
+
+.right p{
+  text-align: right;
+}
+.clear{
+  clear: both;
+}
+
+.education, .experience, .skills, .languages{
+  padding-bottom: 20px;
+}
+
+.experience ul li, .skills ul li{
+  list-style: circle;
+}
+.experience ul, .skills ul{
+  padding-left: 30px;
+}
+
+.portfolio-section p{
+  text-align: justify;
+  padding: 15px 15px 20px 15px;
+}
+
+.portfolio-section h3{
+  font-weight: normal;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.portfolio-section{
+}
+
+#section-5 p{
+  text-align: justify;
+  padding: 15px 15px 20px 15px;
+}
+
+@media(max-width: 1000px) {
+  .container{
+      margin: 0;
+      width: 100%;
+      background: #123A31 no-repeat top center;
+      padding-top: 5%;
+      padding-bottom: 50%;
+  }
+
+    body{
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .contentPage{
+        height: 100%;
+        width: 100%;
+    }
+
+  #nav li a:link, #nav li a:visited {
+      display: inline;
+      font-weight: bold;
+      color: #F3C72A;
+      background-color: #5E6E63;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      padding: 0;
+      text-transform: uppercase;
+      text-align: center;
+  }
+
+    #nav li {
+        display: inline;
+        text-align: center;
+        width: 16.5%;
+        font-size: .75em;
+    }
+
+    #nav{
+        position:fixed;
+        top: 0;
+        margin:auto;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: inline-flex;
+        background-color: #5E6E63;
+        /*padding: 0 !important;*/
+        padding-top: 30px !important;
+    }
+
+    ul{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #nav li .highlight{
+        background-color: #A19AA1 !important;
+        color: #F3C72A !important;
+    }
+
+    .row li{
+        font-size: .75em;
+    }
+
+    .inline-middle{
+        visibility: collapse;
+        height: 0;
+        width: 0;
+    }
+
+    .inline-left, .inline-right{
+        width: 45%;
+    }
+}
+
+@media(max-width: 400px){
+    html body .container{
+        font-size: 1em;
+    }
+    html body p{
+      font-size:  .5em;
+    }
+
+    .contactPart{
+        font-size: 1em;
+    }
+    #nav{
+        visibility: collapse;
+        font-size: .5em;
+        width: 0;
+        height: 0;
+    }
+
+    h1, h2, h3, h4{
+        font-size: .75em;
+    }
+
+    html, body {
+        margin: 0 auto;
+        padding: 0;
+        height: 100%;
+    }
+
+    li{
+        font-size: 1em;
+    }
+
+    div.inline-left p{
+        font-size: 1em;
+    }
+
+    div.inline-middle{
+        visibility: collapse !important;
+        height: 0;
+        width: 0;
+    }
+
+    div.inline-right ul li{
+        font-size: .75em;
+        padding-right: 0;
+        text-align: right;
+    }
+
+    div.inline-right ul{
+        padding-right: 0;
+    }
+
+    .inline-right, .inline-left{
+        width: 40%;
+        display: inline;
+        top: 0;
+    }
+
+    .left{
+        float: left;
+        padding-left: 15px;
+        text-align: left;
+        font-size: .9em;
+    }
+
+    .left p{
+        text-align: left;
+    }
+
+    .right{
+        float: right;
+        padding-right: 15px;
+        text-align: right;
+        font-size: .9em;
+    }
+
+    .left-link{
+        padding-left:0px;
+    }
+
+    .right-link{
+        padding-right: 0px;
+    }
+
+    div p.about{
+        font-size: .75em;
+    }
+
+    .pic{
+        width: 0;
+        height: 0;
+    }
+
+    .job{
+        width: 100%;
+    }
+
+    .experience ul li, .skills ul li{
+        list-style: circle;
+        font-size: .75em;
+    }
+    .experience ul, .skills ul{
+        padding-left: 30px;
+        font-size: .75em;
+    }
+
+    .job-details{
+        padding-bottom: 10px;
+        font-size: .75em;
+    }
+
+    .right, .left{
+        width: 45%;
+    }
+
+    .row{
+        width: 100%;
+        display: inline-flex;
+        font-size: .5em;
+        padding: 0;
+    }
+
+    .row li{
+        width: 12.5%;
+        text-align: center;
+        font-size: .75em;
+    }
+
+    div.portfolio-section h3{
+        width: 75%;
+    }
+
+    .right-link, .left-link{
+        font-size: 1.25em;
+    }
+
+    .nav, #nav, #nav li, #nav li a{
+        width: 0;
+        padding: 0;
+        height: 0;
+        visibility: collapse;
+    }
+
+    .rates{
+        font-size: .5em;
+
+    }
+}

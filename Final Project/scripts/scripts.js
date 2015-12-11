@@ -1,17 +1,13 @@
-function popup() {
-  alert("Hello World")
-}
-
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
+$(document).ready(function (){
+    $('.smooth').click(function (){
+      var link = this.id.substring(4,this.id.length);
+        $('html, body').animate({
+            scrollTop: $("#"+link).offset().top
+        }, 1500);
     });
-
-    return false;
 });
 
-//Found code online to highlight navbar section
+//Found code online to highlight navbar section,
 //From http://stackoverflow.com/questions/23206101/navigation-bar-that-tells-where-you-are
 
 function onScreen() {
