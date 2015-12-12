@@ -1,0 +1,16 @@
+I made the decision to deviate from my IA diagram since some of what was decided
+upon in my IA diagram was cut from the completed project. This was done because
+I lack both pictures of myself and any sort of video I would use for an introduction.
+The same can be said with the map of locations of countries I've visited, because it
+wouldn't really fit in with any other portion of the site that currently exists, so
+I made the executive decision to leave it out.
+
+Also, I felt that job experience would better fit under the Resume portion than
+the Professional Information section.
+
+References were cut for the time being because I lacked tangible references that
+I could rely upon.
+
+Tools were removed from the portfolio section because I felt that they detracted
+from the overall impact of the portfolio section. Instead I tried to highlight my
+past work and include the tools I worked with during that section.
